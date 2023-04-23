@@ -35,41 +35,150 @@
     line-height: 1.5;
 }
 
-.wave {
+.wavegreen {
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    background-color: #38C958;
 }
 
-.wave svg {
+.wavegreen svg {
     position: relative;
     display: block;
     width: calc(132% + 1.3px);
     height: 235px;
 }
 
-.wave .shape-fill {
+.wavegreen .shape-fill {
     fill: #383939;
+}
+
+
+.waveblack {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #383939;
+}
+
+.waveblack svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 235px;
+}
+
+.waveblack .shape-fill {
+    fill: #38C958;
 }
 
 .habilidades {
     display: flex;
     background: #38C958;
     color: #FFFEDB;
+    justify-content: center;
 }
 
-.habilidades h2 {
+.titleSeccion {
+    display: flex;
+    justify-content: center;
+    background: #38C958;
+    color: #FFFEDB;
+    margin: 0;
+    font-size: 36px;
+}
+
+.titelHerramientas {
     display: flex;
     justify-content: center;
 }
 
+.listHabilidades {
+    display: flex;
+    flex-wrap: nowrap;
+    ;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.titleList {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+}
+
+.list-1,
+.list-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-1 li,
+.list-2 li {
+    flex-basis: calc(50% - 5px);
+}
+
+.redes {
+    background-color: #383939;
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFFEDB;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icons a {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 128px;
+    height: auto;
+}
 
 @media (max-width: 768px) {
-    .sobreMi{
+    .sobreMi {
         flex-wrap: wrap;
     }
+
+    .titleSeccion {
+        font-size: 26px;
+    }
+
+
     .column-1 {
         flex-basis: 100%;
     }
@@ -77,4 +186,38 @@
     .column-2 {
         flex-basis: 100%;
     }
+
+    .listHabilidades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-1,
+    .col-2,
+    .col-3 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .list-1,
+    .list-2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .list-1 li,
+    .list-2 li {
+        flex-basis: 100%;
+    }
+
+    .social-icons a {
+        flex-basis: calc(50% - 10px);
+    }
+
+    .social-icons img {
+        width: 64px;
+        height: auto;
+    }
+
+
 }
