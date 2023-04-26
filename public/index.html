@@ -16,6 +16,7 @@
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     />
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/slider.css">
     <title>Protafolio Diego Galan</title>
   </head>
   <body>
@@ -91,7 +92,7 @@
                   <li>NestJS</li>
                 </ul>
                 <ul class="list-2">
-                  <li>Base de datos</li>
+                  <li>Arduino</li>
                   <li>MariaBD</li>
                   <li>ProsgresSQL</li>
                   <li>MongoDB</li>
@@ -101,7 +102,7 @@
 
             <div class="col-3">
               <h2>Idiomas</h2>
-              <ul>
+              <ul class="idiomaslist">
                 <li>Español: Lengua Materna</li>
                 <li>Ingles: Avanzado</li>
               </ul>
@@ -133,7 +134,177 @@
           </svg>
       </div>
       <h2 class="titleSeccion">Proyectos Recientes</h2>
-
+      <div class="proyectContainer">
+        <h3 class="proyectTitle">Chase Tag</h3>
+        <div id="slider">
+          <input type="radio" name="slider" id="slide1" checked>
+          <input type="radio" name="slider" id="slide2">
+          <input type="radio" name="slider" id="slide3">
+          <input type="radio" name="slider" id="slide4">
+          <div id="slides">
+             <div id="overflow">
+                <div class="inner">
+                   <div class="slide slide_1">
+                      <div class="slide-content">
+                        <img class="slider-img"  src="/img/tag1.png">
+                      </div>
+                   </div>
+                   <div class="slide slide_2">
+                      <div class="slide-content">
+                        <img class="slider-img" src="/img/tag2.png">
+                      </div>
+                   </div>
+                   <div class="slide slide_3">
+                      <div class="slide-content">
+                        <img  class="slider-img" src="/img/tag3.png">
+                      </div>
+                   </div>
+                   <div class="slide slide_4">
+                      <div class="slide-content">
+                        <img class="slider-img" src="/img/tag4.png">
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div id="controls">
+             <label for="slide1"></label>
+             <label for="slide2"></label>
+             <label for="slide3"></label>
+             <label for="slide4"></label>
+          </div>
+          <div id="bullets">
+             <label for="slide1"></label>
+             <label for="slide2"></label>
+             <label for="slide3"></label>
+             <label for="slide4"></label>
+          </div>
+       </div>
+       <p class="proyectDes">Es un juego que se desarrollado para el curso de análisis y diseño II con el fin de aplicar diferentes patrones de diseño como decorador y abstract factory 
+        el juego se centra en dos personajes un perseguidor y un perseguido, el perseguido tiene que escapar por 2 minutos si lo logra gana la ronda si el perseguidor 
+      toca al perseguido el gana la ronda, el que más rondas gane nada la partida.</p>
+      <p class="proyectDes">El juego cuenta con 3 niveles y se puede ajustar el número de rondas que se va a jugar</p>
+      <h4 class="makewith">Hecho con:</h4>
+      <ul class="makewithlist">
+        <li>Unity</li>
+        <li>C#</li>
+      </ul>
+      <a class="repository" href="https://github.com/diego0023/Proyecto_Analisis-DisenoII"><img src="/img/reposiroty.png" alt="GithubRepository" title="Repositorio"></a>
+      </div><!--Chase tag-->
+      <div class="proyectContainer">
+        <h3 class="proyectTitle">Pagina Producción y Consumo Responsable</h3>
+        <div id="slider">
+          <input type="radio" name="slider" id="slide1_1" checked>
+          <input type="radio" name="slider" id="slide2_1">
+          <input type="radio" name="slider" id="slide3_1">
+          <input type="radio" name="slider" id="slide4_1">
+          <div id="slides">
+             <div id="overflow">
+                <div class="inner">
+                   <div class="slide slide_1_1">
+                      <div class="slide-content">
+                        <img class="slider-img"  src="/img/hack1.png">
+                      </div>
+                   </div>
+                   <div class="slide slide_2_1">
+                      <div class="slide-content">
+                        <img class="slider-img" src="/img/hack2.png">
+                      </div>
+                   </div>
+                   <div class="slide slide_3_1">
+                      <div class="slide-content">
+                        <img  class="slider-img" src="/img/hack3.png">
+                      </div>
+                   </div>
+                   <div class="slide slide_4_1">
+                      <div class="slide-content">
+                        <img class="slider-img" src="/img/hack4.png">
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div id="controls">
+             <label for="slide1_1"></label>
+             <label for="slide2_1"></label>
+             <label for="slide3_1"></label>
+             <label for="slide4_1"></label>
+          </div>
+          <div id="bullets">
+             <label for="slide1_1"></label>
+             <label for="slide2_1"></label>
+             <label for="slide3_1"></label>
+             <label for="slide4_1"></label>
+          </div>
+       </div>
+       <p class="proyectDes">Pagina creada para el hackfest-2022 de la universidad Rafael Landívar campus de Quetzaltenango,la página tiene el propósito de promover un objetivo del milenio sobre el desarrollo sostenible propuesto
+        por la ONU</p>
+      <h4 class="makewith">Hecho con:</h4>
+      <ul class="makewithlist">
+        <li>React</li>
+        <li>Sass</li>
+        <li>Next.js</li>
+        <li>TypeScript</li>
+      </ul>
+      <a class="repository" href="https://github.com/diego0023/hackfest-2022"><img src="/img/reposiroty.png" alt="GithubRepository" title="Repositorio"></a>
+      </div><!--HackFest-->
+      <div class="proyectContainer">
+        <h3 class="proyectTitle">Planificador Round-Robin</h3>
+        <div id="slider">
+          <input type="radio" name="slider" id="slide1_2" checked>
+          <input type="radio" name="slider" id="slide2_2">
+          <input type="radio" name="slider" id="slide3_2">
+          <input type="radio" name="slider" id="slide4_2">
+          <div id="slides">
+             <div id="overflow">
+                <div class="inner">
+                   <div class="slide slide_1_2">
+                      <div class="slide-content">
+                        <img class="slider-img"  src="/img/pla1.png">
+                      </div>
+                   </div>
+                   <div class="slide slide_2_2">
+                      <div class="slide-content">
+                        <img class="slider-img" src="/img/pla2.png">
+                      </div>
+                   </div>
+                   <div class="slide slide_3_2">
+                      <div class="slide-content">
+                        <img  class="slider-img" src="/img/pla3.png">
+                      </div>
+                   </div>
+                   <div class="slide slide_4_2">
+                      <div class="slide-content">
+                        <img class="slider-img" src="/img/pla4.png">
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div id="controls">
+             <label for="slide1_2"></label>
+             <label for="slide2_2"></label>
+             <label for="slide3_2"></label>
+             <label for="slide4_2"></label>
+          </div>
+          <div id="bullets">
+             <label for="slide1_2"></label>
+             <label for="slide2_2"></label>
+             <label for="slide3_2"></label>
+             <label for="slide4_2"></label>
+          </div>
+       </div>
+       <p class="proyectDes">Este proyecto fue creado para el curso de Sistemas operativos y tiene la función de simular el algoritmo de planificación Round-Robin cada proceso recibe un intervalo de tiempo fijo y predeterminado para ser ejecutado el
+         proceso se ejecuta durante este intervalo de tiempo y, si no termina su ejecución, se suspende y se coloca de nuevo en la cola.</p>
+        <p class="proyectDes">El siguiente proceso en la cola recibe el siguiente quantum y se ejecuta durante su intervalo de tiempo. Este proceso se suspende si no termina su ejecución en el quantum asignado, y se coloca de nuevo en la cola.
+           Este proceso continúa hasta que todos los procesos en la cola hayan recibido un quantum de tiempo de CPU.
+        </p>
+      <h4 class="makewith">Hecho con:</h4>
+      <ul class="makewithlist">
+        <li>Java</li>
+      </ul>
+      <a class="repository" href="https://github.com/diego0023/Proyecto1_OS"><img src="/img/reposiroty.png" alt="GithubRepository" title="Repositorio"></a>
+      </div><!--Planificador-->
     </section><!--Proyectos-->
     <!-- Scripts-->
     <script src="js/navbar.js" type="module"></script>

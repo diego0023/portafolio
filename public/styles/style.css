@@ -123,7 +123,7 @@
     margin-top: 0;
 }
 
-ul {
+.idiomaslist {
     margin: 0;
     padding: 0;
     font-size: 28px;
@@ -167,6 +167,41 @@ ul {
 .social-icons img {
     width: 128px;
     height: auto;
+}
+
+.proyectContainer{
+    background-color: #38C958;
+    color: #FFFEDB;
+    
+
+}
+
+.proyectTitle{
+    margin: 0;
+    font-size: 24px;
+    font-style: italic;
+    padding: 20px;
+}
+
+.makewith{
+    font-size: 20px;
+    font-style: initial;
+    margin: 0;
+    padding: 15px;
+}
+
+.makewithlist{
+    list-style: square;
+    font-size: 20px;
+}
+
+.repository{
+    display: flex;
+    justify-content: center;
+}
+
+.proyectDes{
+    padding: 10px;
 }
 
 @media (max-width: 768px) {
