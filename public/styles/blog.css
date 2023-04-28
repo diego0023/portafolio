@@ -1,0 +1,39 @@
+.blog-header {
+    background: #38C958;
+    color: #383939;
+}
+
+.blog-title {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    
+}
+
+.wrapper.four {
+    background-color: #38C958;
+    font-size: 1rem;
+}
+.four .type{
+    padding: 2rem 1rem;
+    width: auto;
+    margin: auto;
+}
+.four h3 {
+    width: 25ch;
+    border-right: 4px solid black;
+    margin: 2rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(23, end), blink-caret 0.5s step-end infinite alternate;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}

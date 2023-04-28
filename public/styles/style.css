@@ -1,6 +1,6 @@
 .sobreMi {
     display: flex;
-    background: #383939;
+    background-color: #383939;
     color: #FFFEDB;
 }
 
@@ -100,7 +100,6 @@
 .listHabilidades {
     display: flex;
     flex-wrap: nowrap;
-    ;
     justify-content: space-between;
     padding: 20px;
 }

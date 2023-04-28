@@ -39,6 +39,45 @@ header {
     display: none;
 }
 
+.navbar-wave {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.navbar-wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.navbar-wave .shape-fill {
+    fill: #149C68;
+}
+
+.navbar-wave-black {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #383939;
+}
+
+.navbar-wave-black svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.navbar-wave-black .shape-fill {
+    fill: #149C68;
+}
+
 /* responsive */
 @media screen and (max-width: 768px) {
     .burger {
