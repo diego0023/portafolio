@@ -1,18 +1,34 @@
+body{
+    background-color: #383939;
+}
 .blog-header {
     background: #38C958;
     color: #383939;
 }
+.blog-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #383939;
+}
 
 .blog-title {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #eceab1;
+}
+
+.blog-content {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #FFFEDB;
 }
 
 .wrapper.four {
     background-color: #38C958;
-    font-size: 1rem;
+    font-size: 2rem;
+    color: #383939;
 }
 .four .type{
     padding: 2rem 1rem;
@@ -35,5 +51,11 @@
 @keyframes blink-caret {
     50% {
         border-color: transparent;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper.four{
+        font-size: 1rem;
     }
 }
