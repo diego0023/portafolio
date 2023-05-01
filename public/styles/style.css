@@ -122,10 +122,19 @@
     margin-top: 0;
 }
 
+.titelidiomas {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 0;
+}
+
 .idiomaslist {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    font-size: 28px;
+    font-size: 18px;
 }
 
 .list-1,
@@ -138,6 +147,7 @@
 .list-2 li {
     flex-basis: calc(50% - 5px);
 }
+
 
 .redes {
     background-color: #383939;
@@ -168,38 +178,38 @@
     height: auto;
 }
 
-.proyectContainer{
+.proyectContainer {
     background-color: #38C958;
     color: #FFFEDB;
-    
+
 
 }
 
-.proyectTitle{
+.proyectTitle {
     margin: 0;
     font-size: 24px;
     font-style: italic;
     padding: 20px;
 }
 
-.makewith{
+.makewith {
     font-size: 20px;
     font-style: initial;
     margin: 0;
     padding: 15px;
 }
 
-.makewithlist{
+.makewithlist {
     list-style: square;
     font-size: 20px;
 }
 
-.repository{
+.repository {
     display: flex;
     justify-content: center;
 }
 
-.proyectDes{
+.proyectDes {
     padding: 10px;
 }
 
@@ -243,6 +253,7 @@
     .list-2 li {
         flex-basis: 100%;
     }
+    
 
     .social-icons a {
         flex-basis: calc(50% - 10px);
