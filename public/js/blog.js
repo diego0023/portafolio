@@ -2,13 +2,13 @@ import { initializeApp } from  "https://www.gstatic.com/firebasejs/9.4.0/firebas
 import { getFirestore, collection, doc ,getDocs } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-firestore.js";;
 
 const firebaseConfig = {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
-    measurementId: ""
+  apiKey: "AIzaSyDQoyMvyYQTdkyM2ibJjrrPip2ZgioyD_I",
+  authDomain: "portafolio-6ee34.firebaseapp.com",
+  projectId: "portafolio-6ee34",
+  storageBucket: "portafolio-6ee34.appspot.com",
+  messagingSenderId: "541494837964",
+  appId: "1:541494837964:web:a58333c6e0edf8772d3869",
+  measurementId: "G-NKG6BBM8F4"
 };
 
 const app = initializeApp(firebaseConfig);
